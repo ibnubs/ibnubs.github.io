@@ -1,0 +1,81 @@
+.wrap{
+	
+	width: 900px;
+	margin: 10px auto;
+}
+ 
+/*bagian header*/
+.wrap .header{
+	
+	/*height: 50px;*/
+    padding: 2px 10px;
+    background-image: url(../ibnubs.github.io/img/coder2.jpg);
+    color: white;
+    
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu{
+	background: gray;
+}
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: whitesmoke;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+ 
+.wrap .badan .content{
+	background: #f9fa9b;
+	height: 100%;
+	width: 100%;	
+}
+ 
+.wrap .footer{
+	width: 100%;
+    padding: 10px;
+    background: #ceecf0;
+}
+
+.content p{
+	text-align: center;
+}
+blockquote{
+	font-family: Georgia;
+	font-size: 20px;
+	font-size: italic;
+	margin-top: 50px;
+	line-height: 1.4em;
+	position: relative;
+}
+blockquote::before,
+blockquote::after{
+	content: open-quote;
+	font-size: 60px;
+	color: #999;
+	line-height: 0;
+	position: relative;
+	top: 20px;
+
+}
+blockquote::after{
+	content: close-quote;
+}
